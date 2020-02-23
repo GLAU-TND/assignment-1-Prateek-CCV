@@ -6,5 +6,10 @@ public class Person {
     private String[] contactno;
     private String email;
 
-
+    public Person(String firstname, String lastname, String[] contactno, String email) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.contactno = contactno;
+        this.email = email;
+    }
 }
